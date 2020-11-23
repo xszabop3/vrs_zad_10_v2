@@ -332,8 +332,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   mode=0;
   mode_2=0;
-  //mode_2 |= mode_2_auto;
-  mode_2 |= mode_2_manual;
+  mode_2 |= mode_2_auto;
+  //mode_2 |= mode_2_manual;
   while (1)
   {
 	  __WFI();
